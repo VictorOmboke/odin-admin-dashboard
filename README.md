@@ -1,1 +1,1 @@
-# odin-admin-dashboard
+This project is meant to demonstrate an understanding of the fundamentals of CSS Grid. This project is a dashboard-like layout that was assigned to me from the Odin Project Intermediate HTML and CSS course in the FUll Stack JavaScript Path. 
