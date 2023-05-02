@@ -49,16 +49,18 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 20px 30px;
+    height: 200px;
 }
 
 .search {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-area: 1/1/2/2;
+    display: flex;
+    gap: 20px;
 }
 
 .user {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-area: 1/2/2/3;
 }
 
 .greeting {
@@ -67,6 +69,15 @@ body {
 
 .buttons {
     grid-area: 2/2/3/3;
+}
+
+input {
+    width: 60%;
+    padding: 6px;
+    border: none;
+    background-color: #dddddd;
+    border-radius: 12px;
+    align-self: flex-start;
 }
 
 img {
