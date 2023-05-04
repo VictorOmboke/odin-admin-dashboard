@@ -48,7 +48,7 @@ body {
 #header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(2, clamp(100px, 115px, 150px));
+    grid-template-rows: repeat(2, clamp(90px, 100px, 115px));
     padding-left: 35px;
     height: 175px;
 }
@@ -60,6 +60,14 @@ body {
     gap: 25px;
 }
 
+input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    background-color: #dddddd;
+    border-radius: 14px;
+}
+
 .user {
     grid-area: 1/2/2/3;
     justify-self: end;
@@ -69,17 +77,9 @@ body {
     margin-right: 35px;
 }
 
-.greeting {
-    grid-area: 2/1/3/2;
-}
-
-.buttons {
-    grid-area: 2/2/3/3;
-}
-
 .user img {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
 }
 
 .user div {
@@ -88,12 +88,36 @@ body {
     white-space: nowrap;
 }
 
-input {
-    width: 80%;
-    padding: 6px;
-    border: none;
-    background-color: #dddddd;
-    border-radius: 12px;
+.greeting {
+    grid-area: 2/1/3/2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.greeting img {
+    height: 70px;
+    width: 70px;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.greeting-text .hi {
+    font-size: 10px;
+}
+
+.greeting-text .morgan {
+    font-size: 20px;
+}
+
+.buttons {
+    grid-area: 2/2/3/3;
 }
 
 img {
