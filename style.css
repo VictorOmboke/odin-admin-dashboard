@@ -48,7 +48,7 @@ body {
 #header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, clamp(100px, 115px, 150px));
     padding-left: 35px;
     height: 175px;
 }
@@ -62,9 +62,11 @@ body {
 
 .user {
     grid-area: 1/2/2/3;
+    justify-self: end;
     display: flex;
     align-items: center;
     gap: 25px;
+    margin-right: 35px;
 }
 
 .greeting {
@@ -82,7 +84,8 @@ body {
 
 .user div {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
 input {
