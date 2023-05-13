@@ -134,7 +134,7 @@ input {
 #main-content {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, .5fr);
     column-gap: 20px;
     padding: 0px 30px;
@@ -172,8 +172,28 @@ input {
     margin-bottom: 10px;
 }
 
+.announcements-card {
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.announcements-card div {
+    color: #828282;
+    font-size: 10px;
+    width: 225px;
+    padding: 5px 0 0 0;
+    margin-bottom: 10px;
+}
+
 h4 {
     margin: 0;
+    font-weight: 500;
+}
+
+h5 {
+    margin: 0;
+    font-weight: 500;
 }
 
 p {
@@ -197,4 +217,9 @@ img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0.5px solid #e2e2e2;
 }
