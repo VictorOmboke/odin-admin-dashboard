@@ -138,6 +138,11 @@ input {
     padding: 0px 30px;
 }
 
+.your-projects .header,
+.announcements .header {
+    font-size: 20px;
+}
+
 button {
     color: #ffffff;
     background-color: #64c6b7;
