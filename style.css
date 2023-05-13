@@ -153,7 +153,6 @@ input {
 .card {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
     padding: 25px;
     background-color: #ffffff;
     border-left: 7px solid #64c6b7;
@@ -171,10 +170,6 @@ input {
 .trending .header {
     font-size: 20px;
     margin-bottom: 10px;
-}
-
-svg {
-    color: #828282;
 }
 
 h4 {
