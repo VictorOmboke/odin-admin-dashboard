@@ -135,11 +135,14 @@ input {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
     padding: 0px 30px;
 }
 
 .your-projects .header,
-.announcements .header {
+.announcements .header,
+.trending .header {
     font-size: 20px;
 }
 
