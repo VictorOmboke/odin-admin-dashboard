@@ -1,1 +1,3 @@
-This project is meant to demonstrate an understanding of the fundamentals of CSS Grid. This project is a dashboard-like layout that was assigned to me from the Odin Project Intermediate HTML and CSS course in the FUll Stack JavaScript Path. 
+This project is meant to demonstrate an understanding of the fundamentals of CSS Grid. The goal of this project is to create a dashboard-like layout that was assigned to me from the Odin Project Intermediate HTML and CSS course in the FUll Stack JavaScript Path. The initial layout that I will be modeling my project after is in the img folder withing my repo and is titled dashboard-project-img.png.
+
+Photo credit for the profile picture images go to Aldi Sigun from Unsplash.com, their profile can be found here: https://unsplash.com/@sigun
